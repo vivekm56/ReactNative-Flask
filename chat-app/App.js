@@ -4,7 +4,7 @@ import axios from 'axios';
 import tail from 'lodash/tail';
 
 
-const serverUrl = 'http://localhost:5000'; // Replace localhost with your system's ip address
+const serverUrl = 'http://localhost:5000'; // Replace localhost with your system's ip address.
 const http = axios.create({
   baseURL: serverUrl,
 });
@@ -32,7 +32,7 @@ export default class App extends React.Component {
 
   onLoginSuccess(){
     this.setState({isLoggedIn: true});
-    this.getMassage(); //i stuck here
+    this.getMassage(); 
   }
 
 
