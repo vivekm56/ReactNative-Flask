@@ -4,7 +4,7 @@ import axios from 'axios';
 import tail from 'lodash/tail';
 
 
-const serverUrl = 'http://192.168.43.242:5000';
+const serverUrl = 'http://localhost:5000'; // Replace localhost with your system's ip address
 const http = axios.create({
   baseURL: serverUrl,
 });
